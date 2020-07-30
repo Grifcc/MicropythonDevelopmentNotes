@@ -125,7 +125,7 @@ extern const struct _mp_obj_module_t mp_module_modtest;    //这个是我们添�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;找到MICROPY_PORT_BUILTIN_MODULES 定义的地方按照格式添加我们定义的module
 MP_QSTR_modtest这个名字要改成自定义的，MP_QSTR_这个一定要保留，后面的modtest就是在python中显示的module名字
 
-# 三.添加C接口  给module添加function
+# 四.添加C接口  给module添加function
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在    [第二步-添加module](#二添加c接口--module)中已经添加好了一个模块，但是没有实现任何功能，这一节为module添加function实现功能。
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;函数是分为有参数和无参数的,一下两部分分别为有参数和无参数的添加方式
 ## 无参数函数
